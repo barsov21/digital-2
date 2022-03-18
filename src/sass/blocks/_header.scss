@@ -1,0 +1,31 @@
+.header {
+    font-family: 'Cabin', sans-serif;
+    min-height: 123px;
+    padding: 22px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu {
+        display: flex;
+    }
+    &__menu-item {
+        font-weight: 400;
+        font-size: 24px;
+        color: #142239;
+        margin-left: 32px;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:hover {
+            font-weight: 700;
+        }
+    }
+    &__phone {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: #CE2F27;
+    }
+}
