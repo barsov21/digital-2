@@ -1,0 +1,65 @@
+.cases {
+    position: relative;
+    padding: 301px 0 161px 0;
+    background: #e5e5e5 url('../img/cases/cases-bg.png') center (center / cover) no-repeat;
+    box-sizing: border-box;
+    &__title {
+        position: sticky;
+        left: 0;
+        top: 0;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 94px;
+        color: #CE2F27;
+        transform: rotate(-90deg);
+    }
+    &__image {
+        position: absolute;
+        right: 0;
+        top: -270px;
+    }
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1285px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+        &__city {
+            font-weight: 900;
+            font-size: 35px;
+            line-height: 47px;
+            color: #142239;
+            margin-bottom: 94px;
+        }
+        &__inner {
+            display: flex;
+            // align-items: center;
+        }
+        &__item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 156px;
+            height: 89px;
+            background-color: #F4F9FF;
+            margin-bottom: 35px;
+        }
+        &__number {
+            font-weight: 900;
+            font-size: 70px;
+            line-height: 74px;
+            color: #EF4F45;
+        }
+        &__text {
+            font-family: 'Cabin', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29px;
+            margin-left: 28px;
+            color: #1a1a1a;
+        }
+    }
+}

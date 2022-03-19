@@ -1,0 +1,19 @@
+.form {
+    width: 494px;
+    input {
+        width: 100%;
+        height: 65px;
+        border-radius: 10px;
+        display: block;
+        margin-bottom: 20px;
+        border: 1px solid #CBCBCB;
+        padding-left: 21px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 16px;
+        &::placeholder {
+            color: #BDBDBD;
+        }
+    }
+}

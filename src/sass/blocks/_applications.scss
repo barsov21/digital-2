@@ -1,0 +1,58 @@
+.applications {
+    position: relative;
+    padding: 140px 0 177px 0;
+    background-color: #e5e5e5;
+    &__block {
+        width: 1518px;
+        height: 448px;
+        background: #142239 url('../img/applications/applications-bg.png') center (center / cover) no-repeat;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding: 100px 0;
+    }
+    &__wrapper {
+        position: relative;
+        display: flex;
+        padding-left: 235px;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 542px;
+            height: 806px;
+            left: -70px;
+            top: -190px;
+            z-index: 11;
+            background: url('../img/applications/application-woman.png') center (center / cover) no-repeat;
+        }
+    }
+    &__wrapper-block {
+        padding: 48px 126px 103px 118px;
+        width: 596px;
+        height: 245px;
+        background-color: #F4F9FF;
+        border-radius: 20px;
+    }
+    &__wrapper-title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 47px;
+        color: #CE2F27;
+        text-transform: uppercase;
+    }
+    &__wrapper-text {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__wrapper-text--uppercase {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+    }
+    &__form {
+        margin-left: 65px;
+    }
+}

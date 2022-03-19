@@ -1,8 +1,8 @@
 .advantages {
     position: relative;
-    padding: 130px 0 203px 0;
+    padding: 130px 0 202px 0;
     background-color: #e5e5e5;
-    z-index: 2;
+    z-index: -1;
     &::before {
         content: '';
         position: absolute;
