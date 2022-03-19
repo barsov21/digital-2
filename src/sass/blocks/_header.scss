@@ -1,6 +1,4 @@
 .header {
-    font-family: 'Cabin', sans-serif;
-    min-height: 123px;
     padding: 22px 0;
     &__wrapper {
         display: flex;
@@ -11,6 +9,7 @@
         display: flex;
     }
     &__menu-item {
+        font-family: 'Cabin', sans-serif;
         font-weight: 400;
         font-size: 24px;
         color: #142239;
@@ -23,6 +22,7 @@
         }
     }
     &__phone {
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         font-size: 30px;
         line-height: 36px;
